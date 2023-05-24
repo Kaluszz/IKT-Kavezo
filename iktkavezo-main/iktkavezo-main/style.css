@@ -1,18 +1,15 @@
 
 .navbar-fixed { 
 
-    height: 100px;
+    height: 92px;
 }
+@font-face {
+    font-family: myFirstFont;
+    src: url(Santana-Black.ttf);
+  }
+.navbar { font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important; letter-spacing: 1px; font-variant:small-caps; font-size: 13px;}
 
-.navbar { font-family: pike !important; letter-spacing: 1px; font-variant:small-caps;}
 
-.nav-link-active{
-    -webkit-transform: scaleY(0.8);
-    transform: scaleY(0.8);
-    font-size: large;
-    letter-spacing: 1;
-
-}
 
 .nav-link-active:hover {
     color: 	#47A4CC!important;
@@ -28,16 +25,152 @@
         text-align: right;
     }
 
-.img {
-    position:absolute ;
-}
+
+
 body{
-    background-color: red;
+    background-color:  #f2e8e9;
  }
  .px3 {
     padding-top: 1000px;
  }
 
  .nav-item-odebb {
-    margin-left: 400px;
+    margin-left: 1000px;
+    color: black;
  }
+ nav {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  }
+
+  .img-fluid-rounded-4 {
+    height: 10px;
+    width: 10px;
+}
+
+.img-fluid {
+    max-width: 50px;
+    height: auto;
+}
+
+.center {
+    width: 400px;
+    height: 500px;
+    filter: drop-shadow(10px 3px 1px rgba(0, 0, 0, 0.3));
+    transition: .2s;
+  }
+
+  .center:hover {
+    transform: scale(1.2); 
+  }
+
+  .center1:hover {
+    transform: scale(1.2); 
+  }
+
+  .center2:hover {
+    transform: scale(1.2); 
+  }
+
+  .center3:hover {
+    transform: scale(1.2); 
+  }
+
+  .center4:hover {
+    transform: scale(1.2); 
+  }
+
+  .center5:hover {
+    transform: scale(1.2); 
+  }
+
+.center1 {
+    display: block;
+    margin-left: 100px;
+    margin-top: 30px;
+    height: 400px;
+    width: 300px;
+    filter: drop-shadow(10px 3px 1px rgba(0, 0, 0, 0.3));
+    transition: .2s;
+  }
+  .center2 {
+    margin-left: 230px;
+    margin-top: 50px;
+    width: 160px;
+    height: 360px;
+    filter: drop-shadow(10px 3px 1px rgba(0, 0, 0, 0.3));
+    transition: .2s;
+  }
+  .center3 {
+    margin-left: 120px;
+    width: 170px;
+    height: 300px;
+    filter: drop-shadow(10px 3px 1px rgba(0, 0, 0, 0.3));
+    transition: .2s;
+    
+  }
+
+
+  .center4 {
+    margin-left: 105px;
+    width: 310px;
+    height: 330px;
+    margin-top: -23px;
+    filter: drop-shadow(10px 3px 1px rgba(0, 0, 0, 0.3));
+    transition: .2s;
+  }
+
+  .center5 {
+    margin-left: 220px;
+    width: 199px;
+    height: 360px;
+    margin-top: -30px;
+    filter: drop-shadow(10px 3px 1px rgba(0, 0, 0, 0.3));
+    transition: .2s;
+  }
+
+  .container {
+    white-space: nowrap;
+    display: flex;
+    margin-left: 0px;
+    padding-left: 0px;
+
+  }
+  .kep {
+    vertical-align: top;
+  }
+
+
+
+
+
+
+.nav-link-active {
+  border-bottom: 5px solid transparent;
+}
+
+.nav-link-active:active
+ {
+  padding-bottom: -30px;
+  border-bottom: 3px solid lightskyblue;
+}
+
+
+
+.Foodpanda {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.Wolt{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+
+
+
